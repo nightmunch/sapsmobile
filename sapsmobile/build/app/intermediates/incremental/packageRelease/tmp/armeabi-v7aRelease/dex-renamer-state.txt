@@ -1,0 +1,4 @@
+#Mon Apr 13 01:16:37 SGT 2020
+base.0=E\:\\Rin\\Projects\\SAPS\\Apps-Flutter\\sapsmobile\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
