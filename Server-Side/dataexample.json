@@ -1,0 +1,85 @@
+{
+    "ic" : "98032710XXXX",
+    "school" : "SMK SUBANG BESTARI",
+    "results" : [{
+        "exam" : "UJIAN 1",
+        "result" : [{
+            "subject" : "BAHASA INGGERIS",
+            "marks" : 93,
+            "grade" : "A"
+        },{
+            "subject" : "BAHASA MELAYU",
+            "marks" : 74,
+            "grade" : "B"
+        }],
+        "kdt" : "40/448",
+        "kdk" : "11/38",
+        "percent" : 77.25
+        },{
+        "exam" : "PEPERIKSAAN PERTENGAHAN TAHUN",
+        "result" : [{
+            "subject" : "BAHASA INGGERIS",
+            "marks" : 66,
+            "grade" : "B"
+        },{
+            "subject" : "BAHASA MELAYU",
+            "marks" : 74,
+            "grade" : "B"
+        }],
+        "kdt" : "47/446",
+        "kdk" : "12/38",
+        "percent" : 70.63
+    }]
+}
+
+{
+    "results" : [
+        {
+            "exam" : examarray[0], // exam 1
+            "result" : [
+                {
+                    "subject" : subjarray[0][0],
+                    "marks" : subjarray[0][1], // 0 + (0+1) = 2
+                    "grade" : subjarray[0][2] // 0 + (0+2) = 3
+                },
+                {
+                    "subject" : subjarray[1][0],
+                    "marks" : subjarray[1][1],
+                    "grade" : subjarray[1][2]
+                }
+            ]
+        },
+        {
+            "exam" : examarray[1], // exam 2
+            "result" : [
+                {
+                    "subject" : subjarray[0][0],
+                    "marks" : subjarray[0][3], // 1 + (1+1) = 4
+                    "grade" : subjarray[0][4] // 1 + (1+2) = 5
+                },
+                {
+                    "subject" : subjarray[1][0],
+                    "marks" : subjarray[1][3],
+                    "grade" : subjarray[1][4]
+                }
+            ]
+        },
+        {
+            "exam" : examarray[2], // exam 3
+            "result" : [
+                {
+                    "subject" : subjarray[0][0],
+                    "marks" : subjarray[0][5], // 2 + (2+1) = 6
+                    "grade" : subjarray[0][6] // 2 + (2+2) = 7
+                },
+                {
+                    "subject" : subjarray[1][0],
+                    "marks" : subjarray[1][5],
+                    "grade" : subjarray[1][6]
+                }
+            ]
+        }
+    ]
+}
+
+
